@@ -91,6 +91,7 @@ update_url = f'{JSS_URL}/JSSResource/mobiledeviceconfigurationprofiles/id/{CONFI
 update_body = f'''
 <configuration_profile>
     <general>
+        <redeploy_on_update>All</redeploy_on_update>
         <payloads>{modified_payloads}</payloads>
     </general>
 </configuration_profile>
